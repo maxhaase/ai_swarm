@@ -1,6 +1,6 @@
 ![Swarm Logo](assets/logo.png)
 
-# Swarm (experimental, educationbbal, based on OpenAI)
+# Swarm (maxhaase, educationbbal, based on OpenAI)
 
 > [!IMPORTANT]
 > Swarm is now replaced by the [OpenAI Agents SDK](https://github.com/openai/openai-agents-python), which is a production-ready evolution of Swarm. The Agents SDK features key improvements and will be actively maintained by the OpenAI team.
@@ -349,6 +349,7 @@ run_demo_loop(agent, stream=True)
 
 # Core Contributors
 
+- Max Haase - [maxhaase](https://github.com/maxhaase)
 - Ilan Bigio - [ibigio](https://github.com/ibigio)
 - James Hills - [jhills20](https://github.com/jhills20)
 - Shyamal Anadkat - [shyamal-anadkat](https://github.com/shyamal-anadkat)
