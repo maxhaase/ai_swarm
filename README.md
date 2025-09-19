@@ -1,6 +1,6 @@
 ![Swarm Logo](assets/logo.png)
 
-# Swarm (experimental, educational)
+# Swarm (experimental, educationbbal, based on OpenAI)
 
 > [!IMPORTANT]
 > Swarm is now replaced by the [OpenAI Agents SDK](https://github.com/openai/openai-agents-python), which is a production-ready evolution of Swarm. The Agents SDK features key improvements and will be actively maintained by the OpenAI team.
@@ -12,13 +12,13 @@
 Requires Python 3.10+
 
 ```shell
-pip install git+ssh://git@github.com/openai/swarm.git
+pip install git+ssh://git@github.com/maxhaase/swarm.git
 ```
 
 or
 
 ```shell
-pip install git+https://github.com/openai/swarm.git
+pip install git+https://github.com/maxhaase/swarm.git
 ```
 
 ## Usage
@@ -103,7 +103,7 @@ Check out `/examples` for inspiration! Learn more about each one in its README.
 
 ## Running Swarm
 
-Start by instantiating a Swarm client (which internally just instantiates an `OpenAI` client).
+Start by instantiating a Swarm client (which internally just instantiates a client based on `OpenAI`).
 
 ```python
 from swarm import Swarm
